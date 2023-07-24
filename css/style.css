@@ -33,9 +33,6 @@ img {
   max-width: 428px;
   margin: 0 auto;
   padding: 0 16px;
-
-  /*   outline: 2px solid red;
-  outline-offset: -2px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -114,10 +111,6 @@ img {
   display: flex;
   align-items: center;
   margin-right: auto;
-}
-@media only screen and (min-width: 1158px) {
-  .navigation {
-  }
 }
 
 .nav-page {
@@ -231,7 +224,8 @@ img {
   }
 }
 
-/* 1 section */
+/* Hero SECTION */
+
 .title {
   background-color: var(--section-text-color);
   padding: 184px 0 112px;
@@ -354,7 +348,7 @@ img {
   background-color: var(--hover-back);
 }
 
-/* 2 section */
+/* 4 facts */
 
 .feature-hidden {
   position: absolute;
@@ -463,7 +457,7 @@ img {
   }
 }
 
-/* 3 section */
+/* What are we doing */
 
 .work-title {
   padding-top: 0;
@@ -497,7 +491,7 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
-/* 4 section */
+/* Our Team */
 .team-title {
   background-color: var(--btn-color-back);
 }
@@ -600,7 +594,7 @@ img {
   fill: var(--btn-color-back);
 }
 
-/* section 5 */
+/* Customers */
 
 .customers {
   margin: 0;
